@@ -86,15 +86,7 @@ p
 
   </nav>
 
-    <!-- Sticky Footer -->
-      <footer class="sticky-footer">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>Copyright © Your Website 2019</span>
-          </div>
-        </div>
-      </footer>
- <div id="wrapper">
+    
 
     <!-- Sidebar -->
     <ul class="sidebar navbar-nav">
@@ -135,3 +127,12 @@ p
            <span> <a href="tags.php">Quản lý bài viết</a></span>
       </li>
     </ul>
+
+    <!-- Sticky Footer -->
+      <footer class="sticky-footer">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright © Zent Education</span>
+          </div>
+        </div>
+      </footer>
