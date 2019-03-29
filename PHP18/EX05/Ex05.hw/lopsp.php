@@ -2,46 +2,48 @@
 class ttsp
 {
 
-	var $masp='ip';
-	var $tensp='iphone6s';
-	var $soluong='2';
-	var $dongia='12M';
-	var $hangsanxuat='apple';
+	var $masp;
+	var $tensp;
+	var $soluong;
+	var $dongia;
+	var $hangsanxuat;
 
 
 	function inttsp(){
-		echo $this->masp . '<br>';
-		echo $this->tensp . '<br>';
-		echo $this->soluong . '<br>';
-		echo $this->dongia . '<br>';
-		echo $this->hangsanxuat . '<br>';
+		echo 'mã sản phẩm:' . $this->masp . '<br>';
+		echo 'Tên sản phẩm:' . $this->tensp . '<br>';
+		echo 'Số lượng:' . $this->soluong . '<br>';
+		echo 'đơn giá:'. $this->dongia . '<br>';
+		echo 'Xuất xứ:' . $this->hangsanxuat . '<br>';
 	}
 }
 
 
-class iphone  extends ttsp
-{
+$iphone = new ttsp();
+$iphone->masp = '001';
+$iphone->tensp = 'iphone';
+$iphone->soluong = '05';
+$iphone->dongia = '14000000';
+$iphone->hangsanxuat = 'american';
 
-}
-$iphone=new iphone();
-echo "Thông tin sản phẩm IP" . '<br>';
+$xiaomi = new ttsp();
+$xiaomi->masp = '001';
+$xiaomi->tensp = 'xiaomi';
+$xiaomi->soluong = '05';
+$xiaomi->dongia = '15000000';
+$xiaomi->hangsanxuat = 'china';
+
+$samsung = new ttsp();
+$samsung->masp = '001';
+$samsung->tensp = 'samsung';
+$samsung->soluong = '05';
+$samsung->dongia = '16000000';
+$samsung->hangsanxuat = 'hàn quốc';
+	
+
 echo $iphone->inttsp();
-
-
-class xiaomi extends ttsp
-{
-}	
-	$xiaomi=new xiaomi();
-	echo "Thông tin sản phẩm XIAOMI" . '<br>';
-	echo $xiaomi->inttsp();
-
-
-class samsung extends ttsp
-{
-}	
-	$samsung=new samsung();
-	echo "Thông tin sản phẩm SAMSUNG" . '<br>';
-	echo $samsung->inttsp();
+echo $xiaomi->inttsp();
+echo $samsung->inttsp();
 
 
 ?>
