@@ -2,8 +2,6 @@
 session_start();
 $products=$_SESSION['cart'];
 
-
-
 ?>
 
 

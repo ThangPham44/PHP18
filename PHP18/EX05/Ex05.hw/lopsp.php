@@ -38,7 +38,7 @@ $samsung->masp = '001';
 $samsung->tensp = 'samsung';
 $samsung->soluong = '05';
 $samsung->dongia = '16000000';
-$samsung->hangsanxuat = 'hàn quốc';
+$samsung->hangsanxuat = 'korea	';
 	
 
 echo $iphone->inttsp();
