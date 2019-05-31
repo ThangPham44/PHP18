@@ -9,9 +9,10 @@ class EventController extends Controller
   public function index(Request $request)
 	{
 		$events = Event::all();
-        // dd($todos);
+         // dd($events);die;
          // return views(route('todos.index'));
 		return view('event',compact('events'));
+
 	}
 
 	public function create()
@@ -20,8 +21,10 @@ class EventController extends Controller
 	}
 	  public function store(Request $request)
     {
-       Event::create($request->all());
-        return redirect(route('events.index'));
+      $data = $request->all();
+      Event::Create($data);
+   
+      return redirect(route('events.index'));
     }
 
       public function edit(Request $request,$id)

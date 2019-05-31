@@ -14,12 +14,12 @@
 					<legend>Add event</legend>
 				</div>
 				<div class="form-group">
-					<label class="control-label" for="event">Title:</label>
-					<input name="title" type="text" class="form-control" id="event" placeholder="Enter event">
+					<label class="control-label" for="title">Title:</label>
+					<input name="title" type="text" class="form-control" id="title" placeholder="Enter title">
 				</div>
 				<div class="form-group">
-					<label class="control-label" for="event">Content:</label>
-					<input name="content" type="text" class="form-control" id="event" placeholder="Enter event">
+					<label class="control-label" for="content">Content:</label>
+					<input name="content" type="text" class="form-control" id="content" placeholder="Enter content">
 				</div>
 				
 		

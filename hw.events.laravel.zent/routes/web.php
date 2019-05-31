@@ -24,3 +24,5 @@ Route::get('/events/{id}/edit', 'EventController@edit')->name('events.edit');
 Route::put('/events/{id}', 'EventController@update')->name('events.update');
 
 Route::delete('events/{id}', 'EventController@destroy')->name('events.destroy');
+
+Route::resource('events-ajax','EventAjaxController');

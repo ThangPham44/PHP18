@@ -16,7 +16,7 @@
 				</div>
 				<div class="form-group">
 					<label class="control-label" for="event">Title:</label>
-					<input name="title" value="{{$event->event}}" type="text" class="form-control" id="event" placeholder="Enter event">
+					<input name="title" value="{{$event->title}}" type="text" class="form-control" id="event" placeholder="Enter event">
 				</div>
 				
 		
