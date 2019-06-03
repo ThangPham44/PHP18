@@ -217,8 +217,8 @@
 							<td>`+response.data.updated_at+`</td>
 							<td>
 								<a style="display: inline-block; width: 67px;" data-url="/events-ajax/`+response.data.id+`"​ class="btn btn-show btn-show">show</a>
-								<a style="display: inline-block; width: 67px;" data-url="" class="btn btn-edit btn-warning">Edit</a>
-								<button type="button" class="btn btn-danger btn-delete" style= data-url=""​>Delete</button>
+								<a style="display: inline-block; width: 67px;" data-url="/events-ajax/`+response.data.id+`"​ class="btn btn-edit btn-warning">Edit</a>
+								<button type="button" class="btn btn-danger btn-delete" data-url="/events-ajax/`+response.data.id+`"​>Delete</button>
 							</td>
 						</tr>
 										`)
